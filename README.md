@@ -77,7 +77,7 @@ WHEN I click on the Logout button
 
 ## Screenshots
 
-
+![screenshot](https://user-images.githubusercontent.com/103548864/197326900-836abcf2-871a-4cb4-a0c1-2c081f0ec2c0.png)
 
 
 ## Author
@@ -88,7 +88,7 @@ WHEN I click on the Logout button
 ## Deployment
 
 
-Heroku: 
+Heroku: https://book-search-engine-app89.herokuapp.com/
 
 Github: https://github.com/Purplepenguin67/book-search-engine
 
