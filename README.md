@@ -89,7 +89,6 @@ WHEN I click on the Logout button
 
 ## Deployment
 
-
 Heroku: https://book-search-engine-app89.herokuapp.com/
 
 Github: https://github.com/Purplepenguin67/book-search-engine
