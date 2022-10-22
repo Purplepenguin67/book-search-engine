@@ -1,5 +1,5 @@
 {
-  "name": "book-search-engine",
+  "name": "googlebooks-app",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -8,16 +8,20 @@
     "start:prod": "cd server && npm start",
     "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed",
     "heroku-postbuild": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Purplepenguin67/book-search-engine"
   },
   "keywords": [],
   "author": "Douglas Snodgrass",
-  "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^5.1.0"
-  },
+  "license": "MIT",
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
     "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
   }
 }
